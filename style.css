@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -15,6 +17,7 @@ nav {
     height: 110px;
     background-color: #0D0F0F;
     color: #F5F3EE;
+    font-size: 15px;
 }
 
 nav div {
@@ -39,7 +42,7 @@ nav div {
     margin-left: 30px;
 }
 #logo-text {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #logo {
@@ -80,12 +83,13 @@ nav a {
 }
 
 .home-text h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .home-text p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-weight: 700;
@@ -128,8 +132,8 @@ button a {
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    padding: 40px;
-    background-image: url('./images/fundo_branco.avif');
+    padding: 20px;
+    background-image: url('./images/fundo_preto.webp');
 }
 
 .info-elements {
@@ -138,11 +142,12 @@ button a {
     align-items: center;
     text-align: center;
     font-size: 15px;
+    color: #F5F3EE;
 
 }
 
 .info h2 {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 5px;
     margin-left: 0;
 }
@@ -152,3 +157,85 @@ button a {
     height: 70px;
     margin: 0 0 15px 0;
 }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 40px;
+    gap: 50px;
+    background-color: #F5F3EE;
+}
+
+.menu-text {
+    color: #0D0F0F;
+}
+
+.menu-text p {
+    font-size: 14px;
+}
+
+.menu-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.menu-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: stretch;
+    gap: 30px;
+    padding: 20px;
+    color: #0D0F0F;
+    background-color: #171717;
+    border-radius: 20px;
+}
+
+.menu-itens img {
+    width: 100%;
+    max-width: 200px;
+    height: 140px;
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-itens h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}   
+
+.menu-itens p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.burger-button {
+    background-color: #FFB81C;
+    color: #0D0F0F;
+    font-size: 13px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #fff; 
+    padding: 15px;
+    border-radius: 12px;
+}
+
