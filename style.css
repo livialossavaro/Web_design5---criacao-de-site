@@ -132,7 +132,7 @@ button a {
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    padding: 20px;
+    padding: 15px;
     background-image: url('./images/fundo_preto.webp');
 }
 
@@ -153,8 +153,8 @@ button a {
 }
 
 .info-icon {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin: 0 0 15px 0;
 }
 
@@ -239,3 +239,48 @@ button a {
     border-radius: 12px;
 }
 
+.about {
+    display: flex;
+    flex-direction: row;
+    background-image: url(./images/background_about.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 20px;
+}
+
+.about-text h3 {
+    color: #FFB81C;
+    margin: 50px 5px 30px 50px;
+    font-weight: 200;
+}
+
+.about-text h2 {
+    color: #F5F3EE;
+    margin-left: 50px;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+#strong {
+    font-size: 50px;
+}
+.about-text p{
+    color: #F5F3EE;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.about-text img {
+    margin-left: 50px;
+    width: 350px;
+    height: 150px;
+}
+
+.about-image img{
+    margin: 20px;
+    margin-left: 20px;
+    width: 570px;
+    height: 500px;
+}
