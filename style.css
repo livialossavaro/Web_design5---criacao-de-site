@@ -130,7 +130,7 @@ button a {
     justify-content: space-around;
     gap: 20px;
     padding: 15px;
-    background-color: #171717;
+    background-image: url(./images/texture_black_background.jpg);
     border-bottom: solid #0D0F0F 10px;
 }
 
@@ -195,7 +195,6 @@ button a {
     align-items: center;
     justify-content: center;
     text-align: center;
-    align-items: stretch;
     gap: 30px;
     padding: 20px;
     color: #0D0F0F;
@@ -233,6 +232,7 @@ button a {
     border-radius: 20px;
     margin-top: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .product {
@@ -286,8 +286,180 @@ button a {
 
 .about-image img{
     margin: 20px;
+    margin-top: 40px;
     margin-left: 20px;
     width: 600px;
     height: 500px;
     border-radius: 10px;
+}
+
+footer {
+    padding: 10px;
+    border-top: #171717 solid 10px;
+    border-bottom: #171717 solid 10px;
+    background-image: url(./images/texture_black_background.jpg);
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.contato p {
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #F5F3EE;
+    font-weight: 200;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title strong {
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.title h3 {
+    color: #F5F3EE;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.redes p {
+    margin-top: 20px;
+}
+
+.logo-redes {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.logo-texto img {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: row;
+}
+
+.links h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #F5F3EE;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #F5F3EE;
+}
+
+.horario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.horario h3{
+    font-size: 15px;
+    font-weight: 700;
+    color: #F5F3EE;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.horario p {
+    font-size: 14px;
+    color: #F5F3EE;
+    margin: 0;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.week img {
+    width: 30px;
+    height: 30px;
+}
+
+.weekend p {
+    margin-left: 50px;
+}
+
+.informacoes h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #F5F3EE;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.number img {
+    width: 30px;
+    height: 30px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.email img {
+    width: 30px;
+    height: 30px;
+}
+
+.adress {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.adress img {
+    width: 30px;
+    height: 30px;
+}
+
+.map h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #F5F3EE;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.map iframe {
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
 }
